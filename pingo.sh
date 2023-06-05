@@ -1,4 +1,4 @@
-for x in google.com bing.com facebook.com networdkchuck.com
+for x in google.com bing.com facebook.com 
 do 
   if ping -q -c 2 -W 1 $x > /dev/null; then
      echo "$x is up"
