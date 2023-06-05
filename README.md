@@ -1,4 +1,11 @@
-h1 align="center">Bash Script </h1>
+<br />
+<div align="center">
+  <a href="https://github.com/Dizziolica/Utility/blob/main/ligacao.py">
+    <img src="/dizziolica.jpg" alt="Logo" width="80" height="80">
+  </a>
+
+
+<h1 align="center">Bash Script </h1>
 
 <p align="center">Breve descrição do projeto.</p>
 
@@ -43,10 +50,23 @@ cd nome-do-repositorio
 
 📝 Exemplos
 Aqui estão alguns exemplos de uso dos scripts:
+#verifica os urls indicados estão ativos
 
-[Exemplo 1] 
-[Exemplo 2]
-[Exemplo 3]
+for x in google.com bing.com facebook.com 
+do 
+  if ping -q -c 2 -W 1 $x > /dev/null; then
+     echo "$x is up"
+  else
+     echo "$x is down"
+  fi 
+done
+
+#mostra apenas a informação desejada contida no ifconfig
+
+configu=$(ifconfig | grep ether | awk '{print $2}')
+
+echo " Sua mensagem: $configu"
+
 
 <br>
 
