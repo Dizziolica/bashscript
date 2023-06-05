@@ -83,6 +83,6 @@ Abra um Pull Request
 
 Copy code
 
-Certifique-se de copiar todo o código acima e substituir as seções entre colchetes `[]` com as informações relevantes ao seu projeto. Você pode adicionar mais detalhes nas seções e formatar o texto de acordo com suas preferências.
 
-Lembre-se de manter as hashtags (#) nos cabeçalhos para manter a formatação correta dos títulos e sub-títulos. Além disso, você pode personalizar o estilo visual do arquivo README adicionando CSS ou outros recursos se desejar.
+
+
